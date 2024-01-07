@@ -33,5 +33,8 @@ jobs:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     
+    - name: Set file permissions
+      run: chmod +x http_server.rb
+    
     - name: Run tests
       run: ruby http_server.rb
