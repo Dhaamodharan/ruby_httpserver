@@ -37,4 +37,4 @@ jobs:
       run: chmod +x http_server.rb
     
     - name: Run tests
-      run: ruby http_server.rb
+      run: sudo ruby http_server.rb
