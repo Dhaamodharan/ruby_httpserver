@@ -1,5 +1,6 @@
 # Use an official Ruby runtime as a base image
 FROM ruby:3.0
+MAINTAINER exploredevops
 
 # Set the working directory to /app
 WORKDIR /app
